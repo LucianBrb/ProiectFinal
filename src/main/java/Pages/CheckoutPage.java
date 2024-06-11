@@ -34,7 +34,6 @@ public class CheckoutPage extends BasePage {
     }
 
     public void validateAddress(CreateDeleteAccountObject createDeleteAccountObject) {
-
         Assert.assertEquals(deliveryAddress.get(1).getText(),"Mr. "+createDeleteAccountObject.getNameOnCardValue()+" "
                 +createDeleteAccountObject.getUserNameValue());
         Assert.assertEquals(deliveryAddress.get(3).getText(),createDeleteAccountObject.getUserAddress());
