@@ -4,9 +4,7 @@ import ObjectData.CreateDeleteAccountObject;
 import Pages.*;
 import PropertyUtility.PropertyUtility;
 import SharedData.SharedData;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
+
 import org.testng.annotations.Test;
 
 public class CreateDeleteAccountTest extends SharedData {
